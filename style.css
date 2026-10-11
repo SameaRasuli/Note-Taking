@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(247, 241, 233, 0.784);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+    
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(51, 50, 50, 0.721);
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 600px;
+    min-height: 500px;
+    margin-top: 50px;
+    background-color:white ;
+
+}
+header{
+    
+    padding: 24px;
+    background: linear-gradient(135deg, #0B1026, #24205A, #4338CA);
+    color: #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+
+}
+h1{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.input{
+    margin-left: 25px;
+    width:550px ;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    
+}
+.input textarea{
+    width: 450px;
+    height: 90px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 12px;
+    outline: none;
+    resize: none;
+
+}
+textarea::placeholder{
+    padding: 10px;
+    margin-left: 8px;
+}
+.add-btn{
+    background-color: #E0E7FF;
+    color: #3730A3;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+
+   
+}
+.add-btn:hover{
+    background-color: #4e46e5a8;
+}
+.clear-btn{
+    background-color: rgba(255, 0, 0, 0.243);
+    color: rgba(255, 0, 0, 0.413);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+    margin-left:50px ;
+    margin-top: 15px;
+
+}
+.clear-btn:hover{
+    background-color:rgba(255, 0, 0, 0.485);
+}
+
+.notes{
+    background-color: #E0E7FF;
+    color: #3730A3;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s;
+    margin-left:320px ;
+    margin-top: 15px;
+
+
+}
+#notesList li{
+    border: 1px solid rgba(51, 50, 50, 0.135);
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 520px;
+    height: 60px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: #f0f0f058;
+    color: #333333;
+    text-decoration: none;
+    border-left: 5px solid rgba(0, 0, 255, 0.314);
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    font-size: 14px;
+}
+#notesList button{
+    background-color: rgba(255, 0, 0, 0.243);
+    color: rgba(255, 0, 0, 0.413);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.2s
+
+}
+#notesList button:hover{
+     background-color:rgba(255, 0, 0, 0.485);
+}
